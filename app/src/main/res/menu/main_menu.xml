@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:icon="@drawable/baseline_more_time_24"
+            android:title="Appointment" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Reports">
+            <menu>
+                <item
+                    android:id="@+id/nav_samples"
+                    android:icon="@drawable/baseline_playlist_add_check_circle_24"
+                    android:title="Sample Reports" />
+                <item
+                    android:id="@+id/nav_full"
+                    android:icon="@drawable/pulse"
+                    android:title="Full Medical History" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/nav_manage"
+                    android:icon="@drawable/baseline_manage_accounts_24"
+                    android:title="Manage My Profile" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"
+                    android:title="Log Out" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_baseline_chat_bubble_24"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/baseline_read_more_24"
+            android:title="About" />
+
+
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/baseline_close_24"
+            android:title="Exit" />
+
+
+    </group>
+</menu>

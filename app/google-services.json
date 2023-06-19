@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906898021768",
+    "project_id": "patient-tracking-firebase-rtdb",
+    "storage_bucket": "patient-tracking-firebase-rtdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906898021768:android:137d2cbf057c77684eae3d",
+        "android_client_info": {
+          "package_name": "com.example.patienttrackingfirebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906898021768-u8ec6hdv126oqicpmomfm48eboq626v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDhSoodmUiKpeuu5yWaM5xfK140xvVNsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906898021768-u8ec6hdv126oqicpmomfm48eboq626v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

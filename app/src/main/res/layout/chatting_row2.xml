@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtchattingMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chatting_bg_from"
+        android:fontFamily="@font/poppins_regular"
+        android:maxWidth="300dp"
+        android:padding="8dp"
+        android:text="Lorem Ipsum is simply dummy text of the"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtChattingMessgeTime2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="3:14"
+        app:layout_constraintStart_toStartOf="@id/txtchattingMessage2"
+        app:layout_constraintTop_toBottomOf="@id/txtchattingMessage2" />
+
+    <TextView
+        android:id="@+id/txtchattingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chatting_bg"
+        android:fontFamily="@font/poppins_regular"
+        android:maxWidth="300dp"
+        android:padding="8dp"
+        android:text="Lorem Ipsum is simply dummy text of the"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtChattingMessgeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="3:14"
+        app:layout_constraintEnd_toEndOf="@id/txtchattingMessage"
+        app:layout_constraintTop_toBottomOf="@id/txtchattingMessage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
